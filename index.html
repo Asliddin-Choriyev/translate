@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Translate</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <video src="best.mp4" autoplay loop></video>
+    <form>
+      <label for="textInput">Enter Text:</label>
+      <input type="text" id="inputText" placeholder="Type something..." />
+
+      <select id="from">
+        <option>choose current language:</option>
+        <option value="en">English</option>
+        <option value="ru">Russian</option>
+        <option value="uz">Uzbek</option>
+        <option value="ps">afghanistan</option>
+        <option value="kab">Algeria</option>
+        <option value="es">Argentina</option>
+        <option value="is">Uzbek</option>
+        <option value="ar">Arab</option>
+      </select>
+      <select id="to">
+        <option>choose new language:</option>
+        <option value="en">English</option>
+        <option value="ru">Russian</option>
+        <option value="uz">Uzbek</option>
+        <option value="ps">afghanistan</option>
+        <option value="kab">Algeria</option>
+        <option value="es">Argentina</option>
+        <option value="is">Uzbek</option>
+        <option value="ar">Arab</option>
+      </select>
+
+      <button id="translate-btn">Translate</button>
+      <div id="translatedText"></div>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
